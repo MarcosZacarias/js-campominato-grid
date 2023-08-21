@@ -4,6 +4,25 @@
   padding: 0;
 }
 
+img {
+  width: 100%;
+}
+
+header {
+  height: 72px;
+}
+
+main {
+  height: calc(100vh - 88px - 50px);
+  background-color: #7fffd4;
+}
+
+main > .container {
+}
+
+footer {
+  height: 50px;
+}
 .cell-list {
   /* border: 2px solid black; */
   padding: 0;
