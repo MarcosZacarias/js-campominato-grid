@@ -1,18 +1,39 @@
-.cell-list {
-  border: 2px solid black;
+* {
+  box-sizing: border-box;
+  margin: 0;
   padding: 0;
-  width: 50%;
+}
+
+.cell-list {
+  /* border: 2px solid black; */
+  padding: 0;
+  width: 60%;
   display: flex;
   flex-wrap: wrap;
 }
 
 .cell {
   list-style: none;
-  width: calc(100% / 10);
   aspect-ratio: 1;
   border: 2px solid black;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cell7 {
+  width: calc(100% / 7);
+}
+
+.cell9 {
+  width: calc(100% / 9);
+}
+
+.cell10 {
+  width: calc(100% / 10);
+}
+
+.select-difficulty {
+  width: 30%;
 }
