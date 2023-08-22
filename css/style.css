@@ -13,11 +13,8 @@ header {
 }
 
 main {
-  height: calc(100vh - 88px - 50px);
+  /* height: calc(100vh - 88px - 50px); */
   background-color: #7fffd4;
-}
-
-main > .container {
 }
 
 footer {
@@ -41,15 +38,15 @@ footer {
   align-items: center;
 }
 
-.cell7 {
+.cell-49 {
   width: calc(100% / 7);
 }
 
-.cell9 {
+.cell-81 {
   width: calc(100% / 9);
 }
 
-.cell10 {
+.cell-100 {
   width: calc(100% / 10);
 }
 
